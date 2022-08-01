@@ -1,6 +1,7 @@
 Trivia quiz app named Quizzical made using React.
 
 URL: https://darren0602.github.io/trivia-quiz
+
 Hosted via GitHub Pages
 
 The app utilizes the Open Trivia Database which provides 
