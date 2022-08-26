@@ -2,13 +2,15 @@ import React from 'react'
 
 export default function Intro(props) {
     // Intro page with start button
-    // The start button also functions as the api call to get newly generated questions
+    // The start button also functions as the API call to get 
+    // newly generated questions, depending on desired 
+    // question settings (i.e. number of questions, difficulty & category)
     return (
         <div className="intro">
             <h1 className="intro-title">Quizzical</h1>
             <p className="intro-description">Trivia Quiz</p>
             <div className="API-settings">
-            <div className="API-setting">
+                <div className="API-setting">
                     <label htmlFor='questionNumber'>No. of Questions:</label>
                     <br/>
                     <input

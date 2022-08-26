@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Question(props) {
-
+    // The page that displays the trivia questions with 4 answer options.
     return (
         <div className="question-container">
             <h2 className='question'>{props.question}</h2>

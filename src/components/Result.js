@@ -8,10 +8,10 @@ export default function Result(props) {
     const styles=[]
     for(let i = 0; i<props.answers.length; i++) {
         styles[i] = {
-            background: props.chosen === props.answers[i] ? 
-                           "#94D7A2" : 
-                           props.correct === props.answers[i] ? 
-                           "#F8BCBC" : 
+            background: props.chosen === props.answers[i] ?     // Chosen answer Option
+                           "#94D7A2" :      // Green
+                           props.correct === props.answers[i] ? // If chosen is wrong, highlight correct with Red
+                           "#F8BCBC" :      // Red
                            "none"
         }
     }
